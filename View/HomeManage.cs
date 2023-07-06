@@ -58,5 +58,12 @@ namespace BTL_demo.View
         {
             openChildForm(new Customer());
         }
+
+        private void btn_Logout_Click(object sender, EventArgs e)
+        {
+            LogIn logIn = new LogIn();
+            logIn.Show();
+            Hide();
+        }
     }
 }

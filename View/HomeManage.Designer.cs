@@ -35,12 +35,14 @@
             this.btn_Prodcut = new Guna.UI2.WinForms.Guna2Button();
             this.btn_DashBoard = new Guna.UI2.WinForms.Guna2Button();
             this.pane_HomeManage = new Guna.UI2.WinForms.Guna2Panel();
+            this.btn_Logout = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Aquamarine;
+            this.guna2Panel1.Controls.Add(this.btn_Logout);
             this.guna2Panel1.Controls.Add(this.btn_Profile);
             this.guna2Panel1.Controls.Add(this.btn_Customer);
             this.guna2Panel1.Controls.Add(this.btn_Staff);
@@ -57,7 +59,7 @@
             this.btn_Profile.BorderRadius = 15;
             this.btn_Profile.CheckedState.Parent = this.btn_Profile;
             this.btn_Profile.CustomImages.Parent = this.btn_Profile;
-            this.btn_Profile.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Profile.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btn_Profile.ForeColor = System.Drawing.Color.White;
             this.btn_Profile.HoverState.Parent = this.btn_Profile;
             this.btn_Profile.Location = new System.Drawing.Point(11, 477);
@@ -72,7 +74,7 @@
             this.btn_Customer.BorderRadius = 15;
             this.btn_Customer.CheckedState.Parent = this.btn_Customer;
             this.btn_Customer.CustomImages.Parent = this.btn_Customer;
-            this.btn_Customer.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Customer.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btn_Customer.ForeColor = System.Drawing.Color.White;
             this.btn_Customer.HoverState.Parent = this.btn_Customer;
             this.btn_Customer.Location = new System.Drawing.Point(11, 408);
@@ -88,7 +90,7 @@
             this.btn_Staff.BorderRadius = 15;
             this.btn_Staff.CheckedState.Parent = this.btn_Staff;
             this.btn_Staff.CustomImages.Parent = this.btn_Staff;
-            this.btn_Staff.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Staff.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btn_Staff.ForeColor = System.Drawing.Color.White;
             this.btn_Staff.HoverState.Parent = this.btn_Staff;
             this.btn_Staff.Location = new System.Drawing.Point(11, 340);
@@ -104,7 +106,7 @@
             this.btn_Prodcut.BorderRadius = 15;
             this.btn_Prodcut.CheckedState.Parent = this.btn_Prodcut;
             this.btn_Prodcut.CustomImages.Parent = this.btn_Prodcut;
-            this.btn_Prodcut.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Prodcut.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btn_Prodcut.ForeColor = System.Drawing.Color.White;
             this.btn_Prodcut.HoverState.Parent = this.btn_Prodcut;
             this.btn_Prodcut.Location = new System.Drawing.Point(11, 271);
@@ -120,7 +122,7 @@
             this.btn_DashBoard.BorderRadius = 15;
             this.btn_DashBoard.CheckedState.Parent = this.btn_DashBoard;
             this.btn_DashBoard.CustomImages.Parent = this.btn_DashBoard;
-            this.btn_DashBoard.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_DashBoard.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btn_DashBoard.ForeColor = System.Drawing.Color.White;
             this.btn_DashBoard.HoverState.Parent = this.btn_DashBoard;
             this.btn_DashBoard.Location = new System.Drawing.Point(11, 205);
@@ -139,6 +141,23 @@
             this.pane_HomeManage.Size = new System.Drawing.Size(652, 748);
             this.pane_HomeManage.TabIndex = 1;
             this.pane_HomeManage.Paint += new System.Windows.Forms.PaintEventHandler(this.pane_DashBoard_Paint);
+            // 
+            // btn_Logout
+            // 
+            this.btn_Logout.BorderRadius = 15;
+            this.btn_Logout.CheckedState.Parent = this.btn_Logout;
+            this.btn_Logout.CustomImages.Parent = this.btn_Logout;
+            this.btn_Logout.FillColor = System.Drawing.Color.DarkOrange;
+            this.btn_Logout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Logout.ForeColor = System.Drawing.Color.White;
+            this.btn_Logout.HoverState.Parent = this.btn_Logout;
+            this.btn_Logout.Location = new System.Drawing.Point(11, 682);
+            this.btn_Logout.Name = "btn_Logout";
+            this.btn_Logout.ShadowDecoration.Parent = this.btn_Logout;
+            this.btn_Logout.Size = new System.Drawing.Size(235, 45);
+            this.btn_Logout.TabIndex = 5;
+            this.btn_Logout.Text = "Log Out";
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
             // HomeManage
             // 
@@ -163,5 +182,6 @@
         private Guna.UI2.WinForms.Guna2Button btn_DashBoard;
         private Guna.UI2.WinForms.Guna2Panel pane_HomeManage;
         private Guna.UI2.WinForms.Guna2Button btn_Profile;
+        private Guna.UI2.WinForms.Guna2Button btn_Logout;
     }
 }
