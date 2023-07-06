@@ -44,9 +44,18 @@ namespace BTL_demo
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            HomeManage homeManage = new HomeManage();
-            homeManage.Show();
-            Hide();
+            
+            if (txt_username.Text == "" && txt_password.Text == "")
+            {
+                MessageBox.Show("Please fill username and password!","Error", MessageBoxButtons.OK ,MessageBoxIcon.Warning);
+              
+            }
+            else
+            {
+                HomeManage homeManage = new HomeManage();
+                homeManage.Show();
+                Hide();
+            }
         }
 
         private void LogIn_Load(object sender, EventArgs e)
@@ -100,6 +109,13 @@ namespace BTL_demo
         {
             SignUp signUp = new SignUp();
             signUp.Show();
+            Hide();
+        }
+
+        private void btn_forgetPass_Click(object sender, EventArgs e)
+        {
+            ForgetPassword forgetPassword = new ForgetPassword();
+            forgetPassword.Show();
             Hide();
         }
     }

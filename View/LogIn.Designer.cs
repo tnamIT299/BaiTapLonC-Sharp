@@ -232,6 +232,7 @@
             this.btn_forgetPass.Size = new System.Drawing.Size(158, 38);
             this.btn_forgetPass.TabIndex = 14;
             this.btn_forgetPass.Text = "Forget Password";
+            this.btn_forgetPass.Click += new System.EventHandler(this.btn_forgetPass_Click);
             // 
             // btn_SignUp
             // 

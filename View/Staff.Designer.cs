@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(636, 709);
+            this.ClientSize = new System.Drawing.Size(844, 709);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Name = "Staff";
             this.Text = "Form1";

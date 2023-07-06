@@ -29,19 +29,21 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btn_Logout = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Profile = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Customer = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Staff = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Prodcut = new Guna.UI2.WinForms.Guna2Button();
             this.btn_DashBoard = new Guna.UI2.WinForms.Guna2Button();
             this.pane_HomeManage = new Guna.UI2.WinForms.Guna2Panel();
-            this.btn_Logout = new Guna.UI2.WinForms.Guna2Button();
+            this.lbClock = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Aquamarine;
+            this.guna2Panel1.Controls.Add(this.lbClock);
             this.guna2Panel1.Controls.Add(this.btn_Logout);
             this.guna2Panel1.Controls.Add(this.btn_Profile);
             this.guna2Panel1.Controls.Add(this.btn_Customer);
@@ -53,6 +55,24 @@
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(258, 748);
             this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            // 
+            // btn_Logout
+            // 
+            this.btn_Logout.BorderRadius = 15;
+            this.btn_Logout.CheckedState.Parent = this.btn_Logout;
+            this.btn_Logout.CustomImages.Parent = this.btn_Logout;
+            this.btn_Logout.FillColor = System.Drawing.Color.DarkOrange;
+            this.btn_Logout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_Logout.ForeColor = System.Drawing.Color.White;
+            this.btn_Logout.HoverState.Parent = this.btn_Logout;
+            this.btn_Logout.Location = new System.Drawing.Point(11, 649);
+            this.btn_Logout.Name = "btn_Logout";
+            this.btn_Logout.ShadowDecoration.Parent = this.btn_Logout;
+            this.btn_Logout.Size = new System.Drawing.Size(235, 45);
+            this.btn_Logout.TabIndex = 5;
+            this.btn_Logout.Text = "Log Out";
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
             // btn_Profile
             // 
@@ -138,37 +158,34 @@
             this.pane_HomeManage.Location = new System.Drawing.Point(265, 1);
             this.pane_HomeManage.Name = "pane_HomeManage";
             this.pane_HomeManage.ShadowDecoration.Parent = this.pane_HomeManage;
-            this.pane_HomeManage.Size = new System.Drawing.Size(652, 748);
+            this.pane_HomeManage.Size = new System.Drawing.Size(860, 748);
             this.pane_HomeManage.TabIndex = 1;
             this.pane_HomeManage.Paint += new System.Windows.Forms.PaintEventHandler(this.pane_DashBoard_Paint);
             // 
-            // btn_Logout
+            // lbClock
             // 
-            this.btn_Logout.BorderRadius = 15;
-            this.btn_Logout.CheckedState.Parent = this.btn_Logout;
-            this.btn_Logout.CustomImages.Parent = this.btn_Logout;
-            this.btn_Logout.FillColor = System.Drawing.Color.DarkOrange;
-            this.btn_Logout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.btn_Logout.ForeColor = System.Drawing.Color.White;
-            this.btn_Logout.HoverState.Parent = this.btn_Logout;
-            this.btn_Logout.Location = new System.Drawing.Point(11, 682);
-            this.btn_Logout.Name = "btn_Logout";
-            this.btn_Logout.ShadowDecoration.Parent = this.btn_Logout;
-            this.btn_Logout.Size = new System.Drawing.Size(235, 45);
-            this.btn_Logout.TabIndex = 5;
-            this.btn_Logout.Text = "Log Out";
-            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
+            this.lbClock.BackColor = System.Drawing.Color.Transparent;
+            this.lbClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbClock.Location = new System.Drawing.Point(54, 609);
+            this.lbClock.Name = "lbClock";
+            this.lbClock.Size = new System.Drawing.Size(53, 27);
+            this.lbClock.TabIndex = 6;
+            this.lbClock.Text = "Clock";
+            this.lbClock.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbClock.Click += new System.EventHandler(this.lbClock_Click);
             // 
             // HomeManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(918, 749);
+            this.ClientSize = new System.Drawing.Size(1127, 749);
             this.Controls.Add(this.pane_HomeManage);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "HomeManage";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Home Manage";
             this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -183,5 +200,6 @@
         private Guna.UI2.WinForms.Guna2Panel pane_HomeManage;
         private Guna.UI2.WinForms.Guna2Button btn_Profile;
         private Guna.UI2.WinForms.Guna2Button btn_Logout;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lbClock;
     }
 }

@@ -65,6 +65,12 @@
     <Compile Include="View\DashBoard.Designer.cs">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\ForgetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ForgetPassword.Designer.cs">
+      <DependentUpon>ForgetPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Staff.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\DashBoard.resx">
       <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ForgetPassword.resx">
+      <DependentUpon>ForgetPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Product.resx">
       <DependentUpon>Product.cs</DependentUpon>
