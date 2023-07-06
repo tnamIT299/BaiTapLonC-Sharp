@@ -16,6 +16,7 @@ namespace BTL_demo.View
         public HomeManage()
         {
             InitializeComponent();
+           
         }
 
 

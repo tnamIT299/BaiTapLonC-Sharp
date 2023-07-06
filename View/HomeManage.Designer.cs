@@ -167,7 +167,8 @@
             this.Controls.Add(this.pane_HomeManage);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "HomeManage";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Home Manage";
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
