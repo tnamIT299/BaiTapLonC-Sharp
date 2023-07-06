@@ -40,6 +40,7 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Aquamarine;
             this.guna2Panel1.Controls.Add(this.btn_Profile);
             this.guna2Panel1.Controls.Add(this.btn_Customer);
             this.guna2Panel1.Controls.Add(this.btn_Staff);
