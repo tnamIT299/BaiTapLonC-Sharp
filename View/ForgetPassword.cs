@@ -38,5 +38,10 @@ namespace BTL_demo.View
         {
 
         }
+
+        private void txt_cfpass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

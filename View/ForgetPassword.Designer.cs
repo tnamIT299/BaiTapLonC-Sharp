@@ -185,6 +185,7 @@
             this.txt_cfpass.ShadowDecoration.Parent = this.txt_cfpass;
             this.txt_cfpass.Size = new System.Drawing.Size(365, 47);
             this.txt_cfpass.TabIndex = 8;
+            this.txt_cfpass.TextChanged += new System.EventHandler(this.txt_cfpass_TextChanged);
             // 
             // btn_otp
             // 
