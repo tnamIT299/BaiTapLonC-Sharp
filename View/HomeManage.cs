@@ -28,6 +28,7 @@ namespace BTL_demo.View
 
             // Bắt đầu chạy Timer
             timer.Start();
+           
         }
         private void Timer_Tick(object sender, EventArgs e)
         {

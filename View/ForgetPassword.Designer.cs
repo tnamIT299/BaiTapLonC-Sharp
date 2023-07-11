@@ -208,7 +208,7 @@
             this.btn_ok.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
             this.btn_ok.ForeColor = System.Drawing.Color.White;
             this.btn_ok.HoverState.Parent = this.btn_ok;
-            this.btn_ok.Location = new System.Drawing.Point(347, 384);
+            this.btn_ok.Location = new System.Drawing.Point(340, 384);
             this.btn_ok.Name = "btn_ok";
             this.btn_ok.ShadowDecoration.Parent = this.btn_ok;
             this.btn_ok.Size = new System.Drawing.Size(155, 45);
