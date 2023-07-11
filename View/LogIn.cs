@@ -54,20 +54,7 @@ namespace BTL_demo
         {
             txt_password.PasswordChar = cb_show_pass.Checked ? '\0' : '*';
         }
-
-       
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        
+  
 
         private void btn_SignUp_Click(object sender, EventArgs e)
         {
