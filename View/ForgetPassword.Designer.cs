@@ -50,7 +50,6 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(241, 33);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "Khôi phục mật khẩu ";
-            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // guna2HtmlLabel2
             // 
