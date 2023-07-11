@@ -24,11 +24,6 @@ namespace BTL_demo.View
             Hide();
         }
 
-        private void txt_newpass_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txt_cfpass_TextChanged(object sender, EventArgs e)
         {
 
