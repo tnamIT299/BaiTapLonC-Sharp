@@ -154,7 +154,6 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(158, 33);
             this.guna2HtmlLabel1.TabIndex = 5;
             this.guna2HtmlLabel1.Text = "WELCOME!";
-            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // guna2Panel1
             // 
@@ -165,7 +164,6 @@
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(395, 550);
             this.guna2Panel1.TabIndex = 6;
-            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint_1);
             // 
             // guna2PictureBox1
             // 
@@ -274,7 +272,6 @@
             this.Name = "LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome";
-            this.Load += new System.EventHandler(this.LogIn_Load);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
