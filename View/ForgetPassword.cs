@@ -23,5 +23,10 @@ namespace BTL_demo.View
             logIn.Show();
             Hide();
         }
+
+        private void txt_email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
