@@ -137,6 +137,7 @@
             this.txt_otp.ShadowDecoration.Parent = this.txt_otp;
             this.txt_otp.Size = new System.Drawing.Size(365, 47);
             this.txt_otp.TabIndex = 6;
+            this.txt_otp.TextChanged += new System.EventHandler(this.txt_otp_TextChanged);
             // 
             // txt_newpass
             // 
