@@ -24,11 +24,6 @@ namespace BTL_demo.View
             Hide();
         }
 
-        private void txt_cfpass_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_otp_Click(object sender, EventArgs e)
         {
 
