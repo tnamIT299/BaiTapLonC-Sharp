@@ -113,7 +113,6 @@
             this.txt_email.ShadowDecoration.Parent = this.txt_email;
             this.txt_email.Size = new System.Drawing.Size(365, 47);
             this.txt_email.TabIndex = 5;
-            this.txt_email.TextChanged += new System.EventHandler(this.txt_email_TextChanged);
             // 
             // txt_otp
             // 
@@ -202,6 +201,7 @@
             this.btn_otp.Size = new System.Drawing.Size(76, 33);
             this.btn_otp.TabIndex = 9;
             this.btn_otp.Text = "Send OTP";
+            this.btn_otp.Click += new System.EventHandler(this.btn_otp_Click);
             // 
             // btn_ok
             // 

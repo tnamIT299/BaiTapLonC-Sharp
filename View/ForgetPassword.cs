@@ -24,11 +24,6 @@ namespace BTL_demo.View
             Hide();
         }
 
-        private void txt_email_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txt_otp_TextChanged(object sender, EventArgs e)
         {
 
@@ -40,6 +35,11 @@ namespace BTL_demo.View
         }
 
         private void txt_cfpass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_otp_Click(object sender, EventArgs e)
         {
 
         }
