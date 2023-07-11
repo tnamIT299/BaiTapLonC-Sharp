@@ -161,6 +161,7 @@
             this.txt_newpass.ShadowDecoration.Parent = this.txt_newpass;
             this.txt_newpass.Size = new System.Drawing.Size(365, 47);
             this.txt_newpass.TabIndex = 7;
+            this.txt_newpass.TextChanged += new System.EventHandler(this.txt_newpass_TextChanged);
             // 
             // txt_cfpass
             // 

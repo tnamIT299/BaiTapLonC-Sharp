@@ -33,5 +33,10 @@ namespace BTL_demo.View
         {
 
         }
+
+        private void txt_newpass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
