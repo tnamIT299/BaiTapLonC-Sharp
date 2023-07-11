@@ -74,7 +74,6 @@
             this.txt_username.ShadowDecoration.Parent = this.txt_username;
             this.txt_username.Size = new System.Drawing.Size(314, 62);
             this.txt_username.TabIndex = 0;
-            this.txt_username.TextChanged += new System.EventHandler(this.txt_username_TextChanged);
             this.txt_username.Click += new System.EventHandler(this.txt_username_Click);
             // 
             // txt_password
