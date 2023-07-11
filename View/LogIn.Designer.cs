@@ -211,7 +211,6 @@
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(28, 22);
             this.guna2HtmlLabel3.TabIndex = 13;
             this.guna2HtmlLabel3.Text = "OR";
-            this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
             // 
             // btn_forgetPass
             // 
