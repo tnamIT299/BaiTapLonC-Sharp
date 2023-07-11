@@ -104,7 +104,6 @@
             this.txt_password.ShadowDecoration.Parent = this.txt_password;
             this.txt_password.Size = new System.Drawing.Size(314, 62);
             this.txt_password.TabIndex = 1;
-            this.txt_password.TextChanged += new System.EventHandler(this.txt_password_TextChanged);
             this.txt_password.Click += new System.EventHandler(this.txt_password_Click);
             // 
             // btn_login
