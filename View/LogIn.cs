@@ -55,7 +55,7 @@ namespace BTL_demo
             txt_password.PasswordChar = cb_show_pass.Checked ? '\0' : '*';
         }
 
-        private void guna2HtmlLabel3_Click(object sender, EventArgs e){}
+       
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
