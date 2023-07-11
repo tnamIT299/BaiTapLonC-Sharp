@@ -88,6 +88,5 @@ namespace BTL_demo.View
             Hide();
         }
        
-        
     }
 }

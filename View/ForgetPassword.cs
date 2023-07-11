@@ -17,11 +17,6 @@ namespace BTL_demo.View
             InitializeComponent();
         }
 
-        private void ForgetPassword_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_ok_Click(object sender, EventArgs e)
         {
             LogIn logIn = new LogIn();

@@ -234,7 +234,6 @@
             this.Name = "ForgetPassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ForgetPassword";
-            this.Load += new System.EventHandler(this.ForgetPassword_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
