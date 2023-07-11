@@ -48,8 +48,6 @@ namespace BTL_demo
             }
         }
 
-      
-
         private void cb_show_pass_CheckedChanged(object sender, EventArgs e)
         {
             txt_password.PasswordChar = cb_show_pass.Checked ? '\0' : '*';

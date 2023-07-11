@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lbClock = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btn_Logout = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Profile = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Customer = new Guna.UI2.WinForms.Guna2Button();
@@ -36,7 +37,6 @@
             this.btn_Prodcut = new Guna.UI2.WinForms.Guna2Button();
             this.btn_DashBoard = new Guna.UI2.WinForms.Guna2Button();
             this.pane_HomeManage = new Guna.UI2.WinForms.Guna2Panel();
-            this.lbClock = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +56,17 @@
             this.guna2Panel1.Size = new System.Drawing.Size(258, 748);
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            // 
+            // lbClock
+            // 
+            this.lbClock.BackColor = System.Drawing.Color.Transparent;
+            this.lbClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbClock.Location = new System.Drawing.Point(54, 609);
+            this.lbClock.Name = "lbClock";
+            this.lbClock.Size = new System.Drawing.Size(53, 27);
+            this.lbClock.TabIndex = 6;
+            this.lbClock.Text = "Clock";
+            this.lbClock.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btn_Logout
             // 
@@ -161,18 +172,6 @@
             this.pane_HomeManage.Size = new System.Drawing.Size(860, 748);
             this.pane_HomeManage.TabIndex = 1;
             this.pane_HomeManage.Paint += new System.Windows.Forms.PaintEventHandler(this.pane_DashBoard_Paint);
-            // 
-            // lbClock
-            // 
-            this.lbClock.BackColor = System.Drawing.Color.Transparent;
-            this.lbClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbClock.Location = new System.Drawing.Point(54, 609);
-            this.lbClock.Name = "lbClock";
-            this.lbClock.Size = new System.Drawing.Size(53, 27);
-            this.lbClock.TabIndex = 6;
-            this.lbClock.Text = "Clock";
-            this.lbClock.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbClock.Click += new System.EventHandler(this.lbClock_Click);
             // 
             // HomeManage
             // 

@@ -88,11 +88,6 @@ namespace BTL_demo.View
             Hide();
         }
 
-        private void lbClock_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
            
