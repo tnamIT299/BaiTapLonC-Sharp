@@ -16,5 +16,20 @@ namespace BTL_demo.View
         {
             InitializeComponent();
         }
+
+        private void btn_signUp_Click(object sender, EventArgs e)
+        {
+            if (txt_username.Text == "" && txt_password.Text == "" && txt_email.Text == "")
+            {
+                MessageBox.Show("Please fill ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+            else
+            {
+                HomeManage homeManage = new HomeManage();
+                homeManage.Show();
+                Hide();
+            }
+        }
     }
 }

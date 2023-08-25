@@ -1,4 +1,5 @@
 ﻿using BTL_demo.View;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,9 +16,10 @@ namespace BTL_demo
     {
         public LogIn()
         {
+            this.txt_username = new Guna2TextBox();
             InitializeComponent();
             this.txt_username.SelectAll();
-            this.txt_password.SelectAll();
+            this.txt_password.SelectAll(); 
         }
 
 
@@ -66,6 +68,11 @@ namespace BTL_demo
             ForgetPassword forgetPassword = new ForgetPassword();
             forgetPassword.Show();
             Hide();
+        }
+
+        private void LogIn_Load(object sender, EventArgs e)
+        {
+       
         }
     }
 }

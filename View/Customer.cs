@@ -16,5 +16,10 @@ namespace BTL_demo.View
         {
             InitializeComponent();
         }
+
+        private void Customer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
